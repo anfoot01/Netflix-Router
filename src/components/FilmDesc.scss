@@ -1,0 +1,35 @@
+.FilmDesc {
+    margin-bottom: 28rem;
+    &__title {
+        font-family: var(--font-family);
+        font-weight: 800;
+        font-size: 64rem;
+        letter-spacing: 0.06em;
+        color: #fff;
+        margin-bottom: 17rem;
+    }
+
+    &__shortInfo {
+        display: flex;
+        gap: 10rem;
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 30rem;
+        color: #fff;
+margin-bottom: 8rem;
+        span {
+            font-weight: 400;
+            font-size: 29rem;
+            color: #a7a6a6;
+        }
+    }
+
+    &__desc {
+        max-width: 804rem;
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 24rem;
+        line-height: 142%;
+        color: #a7a6a6;
+    }
+}

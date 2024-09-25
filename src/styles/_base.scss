@@ -1,0 +1,44 @@
+body {
+  padding-left: 80rem;
+  padding-top: 40rem;
+  padding-right: 33rem;
+  font-size: 16rem;
+  font-family: "Inter", sans-serif;
+  background: url(./assets/bg-photo.png);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+html {
+  font-size: 1px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+button {
+  cursor: pointer;
+}
+.container {
+  background-position: center top;
+  background-size: 100% auto;
+}
+
+.logBtn {
+  background: #d40d1f;
+  padding: 10rem 20rem;
+  border: 0;
+  font-family: var(--font-family);
+  font-size: 22rem;
+  line-height: 142%;
+  color: #fff;
+  border-radius: 10rem;
+  padding: 16rem 35rem;
+}
+.search{
+    background: local;
+    border:0;   
+}

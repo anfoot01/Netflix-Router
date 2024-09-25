@@ -1,0 +1,35 @@
+.buttonBlock {
+    margin-bottom: 54rem;
+    display: flex;
+    gap: 50px;
+
+    &__streamNow {
+        display: flex;
+        align-items: center;
+        gap: 12rem;
+        padding: 16rem 35rem;
+        border-radius: 10rem;
+        background: #d40d1f;
+        border: 0;
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 22rem;
+        line-height: 142%;
+        color: #fff;
+    }
+    &__allEpisodes{
+        display: flex;
+        align-items: center;
+        gap: 12rem;
+        padding: 16rem 57rem;
+        border-radius: 10rem;
+        border: 3rem solid #fff;
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 22rem;
+        line-height: 142%;
+        border-radius: 10px;
+        color: #fff;
+        background: none;
+    }
+}
