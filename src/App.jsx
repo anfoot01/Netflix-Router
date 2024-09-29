@@ -9,6 +9,7 @@ import Popular from "./components/Popular";
 import AgeMark from "./components/AgeMark";
 import About from "./components/About";
 import Contact from "./components/Contact";
+import Home from "./components/Home";
 function App() {
   let filmTitle = "Stranger Things";
   let filmDesc =
@@ -16,10 +17,10 @@ function App() {
   let countOfStars = "5";
   let genres = [
     {
-      value: "Drama │",
+      value: "Drama ",
     },
     {
-      value: "Thriller │",
+      value: "Thriller ",
     },
     {
       value: "Supernatural",
@@ -31,7 +32,7 @@ function App() {
       <Router>
         <Header></Header>
         <Routes>
-          <Route path="/" element={<App></App>}></Route>
+          <Route path="/home" element={<Home></Home>}></Route>
           <Route path="/about" element={<About></About>}></Route>
           <Route path="/contact" element={<Contact></Contact>}></Route>
         </Routes>
