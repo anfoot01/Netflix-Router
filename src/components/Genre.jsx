@@ -16,10 +16,10 @@ Genre.defaultProps ={
 function Genre(props) {
   let genres = [
     {
-      value: 'Drama │',
+      value: 'Drama ',
     },
     {
-      value: 'Thriller │',
+      value: 'Thriller ',
     },
     {
       value: 'Supernatural'
