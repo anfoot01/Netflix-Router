@@ -2,11 +2,32 @@ import React from "react";
 import PropTypes from "prop-types";
 import "./Rating.scss";
 function Rating() {
-  let ratings = [true, true, true, true, true];
+  let ratings = [
+    {
+      value:true,
+      index:0
+    },
+    {
+      value:true,
+      index:1
+    },
+    {
+      value:true,
+      index:2
+    },
+    {
+      value:true,
+      index:3
+    },
+    {
+      value:true,
+      index:4
+    }
+  ];
   return (
     <div className="rating">
       {ratings.map(() => (
-        <span key={Math.random()} className="material-symbols-outlined rating__star yellow">
+        <span key={ratings.index} className="material-symbols-outlined rating__star yellow">
           <svg
             width="32"
             height="32"
